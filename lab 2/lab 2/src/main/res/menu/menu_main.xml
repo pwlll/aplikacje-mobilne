@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="java/com/example/lab2/MainActivity.java">
+    <item
+        android:id="@+id/author"
+        android:title="Twórca"></item>
+    <item
+        android:id="@+id/exit"
+        android:title="Wyjście"></item>
+    <item
+        android:id="@+id/colors"
+        android:title="Kolorystyka">
+        <menu>
+            <item
+                android:id="@+id/color1"
+                android:title="Czarno-biała"></item>
+            <item
+                android:id="@+id/color2"
+                android:title="Czerwono-żółta"></item>
+        </menu>
+    </item>
+</menu>
